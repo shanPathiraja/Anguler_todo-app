@@ -9,6 +9,8 @@ import { HederComponent } from './components/layout/heder/heder.component';
 import { AddTodoComponent } from './components/add-todo/add-todo.component';
 import { FormsModule } from '@angular/forms';
 import { AboutComponent } from './pages/about/about.component';
+import { UserItemComponent } from './components/user/user-item/user-item.component';
+import { UserComponent } from './components/user/user.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +20,8 @@ import { AboutComponent } from './pages/about/about.component';
     HederComponent,
     AddTodoComponent,
     AboutComponent,
+    UserItemComponent,
+    UserComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule, FormsModule],
   providers: [],
