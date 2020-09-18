@@ -1,1 +1,13 @@
-<p>{{ user.name }}</p>
+<div class="card">
+  <div class="card-header"></div>
+  <div class="card-body">
+    <h5 class="card-title">{{ user.name }}</h5>
+    <p class="card-text">
+      suit:{{ user.address.suite }} <br />
+      Streat:{{ user.address.street }}
+      <br />
+
+      City: {{ user.address.city }} <br />
+    </p>
+  </div>
+</div>
